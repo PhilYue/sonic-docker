@@ -1,0 +1,9 @@
+version: '3'
+
+#docker pull b3log/siyuan
+services:
+  siyuan:
+    image: b3log/siyuan:latest
+    container_name: siyuan
+    ports:
+      - "6806:6806"
